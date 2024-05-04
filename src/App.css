@@ -179,8 +179,17 @@ img {
 .projects .card .type {
     margin-bottom: 20px;
 }
+
+.projects-card {
+    background-color: #5d5f66;
+    margin: 0 auto;
+    width: 90%;
+}
+
 .contact-card {
     background-color: #5d5f66;
+    margin: 0 auto;
+    width: 90%;
 }
 
 form {
@@ -309,6 +318,12 @@ button[type="submit"]:hover {
         padding: 16px;
     }
 
+    .my-img {
+        margin: 48px 0 0;
+        height: auto;
+        width: auto;
+    }
+
 }
 
 @media only screen and (max-width: 767px) {
@@ -326,7 +341,7 @@ button[type="submit"]:hover {
         text-align: center;
     }
 
-    .home-img {
+    .my-img {
         margin: 48px 0 0;
         height: auto;
         width: auto;
