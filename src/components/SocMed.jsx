@@ -21,7 +21,7 @@ export default function SocMed() {
             </div>
           </div>
           <div className="col-xl-4 col-lg-4 pt-3">
-            <img src="./Asset1.png" alt="" className="home-img" />
+            <img src="./Asset1.png" alt="" className="my-img" />
           </div>
         </div>
       </div>

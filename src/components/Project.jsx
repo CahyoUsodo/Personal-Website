@@ -30,7 +30,7 @@ export default function Project() {
             {projects && projects.map((item, index) => {
               return (
                 <div key={index} className="col-lg-4 col-md-6 d-flex align-items-stretch">
-                  <div className="card about border border-dark">
+                  <div className="card about border border-dark projects-card">
                     <img src={item?.image} alt="project image" className="project-img" />
                     <h5 className="text-center">{item?.title}</h5>
                     <span className="type text-center"><em>{item?.type?.title}</em></span>
