@@ -18,7 +18,14 @@ export default function Project() {
                 image: "./ProjectMicro.png",
                 content: "Our team has developed a website to facilitate individuals interested in playing futsal in Samarinda, particularly at Lucky Futsal, to easily access relevant information such as pricing, location, and contact details of the facility's management. My role within the team primarily involved crafting the website's UI/UX.",
                 url: "https://cahyousodo.github.io/Lucky-Futsal/"
-            }
+            },
+            {
+              title: "Sistem Informasi UKM",
+              type: { title: "Web Development" },
+              image: "./ProjectMassive.png",
+              content: "Our team has developed a website to facilitate students, particularly at Universitas Akprind Indonesia, to easily access relevant information for Unit Kegiatan Mahasiswa (UKM) such as details of the UKM, apply to be a member of the UKM, knowing what projects will UKM do for next time, and knowing what UKM suitable for you based on what things you like. My role within the team primarily involved crafting the website's UI/UX.",
+              url: "https://cahyousodo.github.io/Lucky-Futsal/"
+          }
         ];
         setProjects(sampleProjects);
     }, []);
